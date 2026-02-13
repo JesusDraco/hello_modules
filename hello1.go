@@ -21,3 +21,7 @@ func RandomHello() string {
 	return greetings[rand.Intn(len(greetings))]
 
 }
+
+func Sum() int {
+	return 2 + 2
+}
